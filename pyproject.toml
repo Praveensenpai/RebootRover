@@ -1,0 +1,11 @@
+[project]
+name = "RebootRover"
+version = "0.1.0"
+description = """**RebootRover** – Your Automated Router Management Assistant
+
+RebootRover is a simple, reliable tool that automates essential router management tasks like logging in, fetching CSRF tokens, and rebooting your router periodically. Designed to simplify network maintenance, RebootRover keeps your router running smoothly, handling everything from captchas to CSRF token management. With an easy setup and consistent functionality, it’s perfect for maintaining network stability, even during remote management.
+
+Whether you need regular reboots for network health or just an easy way to log in and make adjustments, RebootRover is ready to roam!"""
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["httpx>=0.27.2"]
